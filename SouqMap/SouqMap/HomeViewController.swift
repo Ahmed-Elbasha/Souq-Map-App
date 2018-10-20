@@ -15,6 +15,10 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func beginNowButtonPressed(_ sender: Any) {
+        let registrationVC = storyboard?.instantiateViewController(withIdentifier: "Registration")
+        self.present(registrationVC!, animated: true, completion: nil)
+    }
+    
 }
 

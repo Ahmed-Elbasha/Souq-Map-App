@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2DC3F9217BC09A0046AE39 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2DC3F8217BC09A0046AE39 /* RegistrationViewController.swift */; };
 		7E303586217A9DBB006069D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E303585217A9DBB006069D2 /* AppDelegate.swift */; };
 		7E303588217A9DBB006069D2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E303587217A9DBB006069D2 /* HomeViewController.swift */; };
 		7E30358B217A9DBB006069D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E303589217A9DBB006069D2 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E2DC3F8217BC09A0046AE39 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		7E303582217A9DBB006069D2 /* SouqMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouqMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E303585217A9DBB006069D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E303587217A9DBB006069D2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				7E303585217A9DBB006069D2 /* AppDelegate.swift */,
 				7E303587217A9DBB006069D2 /* HomeViewController.swift */,
+				7E2DC3F8217BC09A0046AE39 /* RegistrationViewController.swift */,
 				7E303589217A9DBB006069D2 /* Main.storyboard */,
 				7E30358C217A9DCA006069D2 /* Assets.xcassets */,
 				7E30358E217A9DCA006069D2 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2DC3F9217BC09A0046AE39 /* RegistrationViewController.swift in Sources */,
 				7E303588217A9DBB006069D2 /* HomeViewController.swift in Sources */,
 				7E303586217A9DBB006069D2 /* AppDelegate.swift in Sources */,
 			);
